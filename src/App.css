@@ -1,0 +1,49 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html{
+  background-color: rgb(0, 0, 0);
+}
+#meow{
+  display: grid;
+  grid-template-columns: auto auto auto;
+  justify-content: space-around;
+  text-align: center;
+  color: white;
+}
+
+.grid {
+  width: 90%;
+  text-align: center;
+}
+
+.part1 {
+  text-overflow: ellipsis;
+}
+
+.Part2{
+  font-size:  1.25vw;
+  color: white;
+}
+
+.header{
+  background-color: rgb(18, 18, 79);
+  color: white;
+  padding: 50px;
+  text-align: center;
+  
+}
+#head{
+  background-color: rgb(68, 66, 66);
+  padding: 25px;
+  text-align: center;
+}
+
+.search{
+  float: right;
+}
+#name{
+  float: left;
+}
